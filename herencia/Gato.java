@@ -10,6 +10,6 @@ public class Gato extends Animal {
     }
     public void incremetarPeso(int p)
     {
-        this.peso  = this.peso + p
+        this.peso  = this.peso + p;
     }
 }

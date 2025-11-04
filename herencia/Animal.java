@@ -1,49 +1,49 @@
-'''
-Un animal es un ser vivo que puede desplazarse de un lugar a otro. Este tipo de organismo se
-caracteriza además por diversas características que son compartidas por la mayoría de los animales.
-Los animales ingieren alimentos, desarrollan una reproducción de tipo sexual (mayoría de los casos)
-y absorben oxígeno a través de la respiración. Sin embargo, los animales también tienen
-características que los hace diferentes entre sí.
-Existe una variedad de grupos y clasificación de los animales. En este caso, para nuestro ejercicio
-académico, nos centraremos en la clasificación de animales domésticos y salvajes. Los animales
-domésticos son aquellos que los humanos hemos habituado a vivir con nosotros. Quizás tu tengas
-uno de estos en casa, normalmente hay un perro o un gato en nuestras casas bogotanas, pero
-también los cerdos, toros, patos y entre otros son considerados animales domésticos. Por otra
-parte, los animales salvajes no son domesticables ya que nos consideran una especie peligrosa o
-una presa. Estos animales, en su ambiente natural consiguen su propia alimentación y buscan su
-propio hogar. Algunos ejemplos de estos animales son la Jirafa, el hipopótamo, el cocodrilo, etc.
-Tomando como referencia la introducción anterior, esta actividad consistirá en crear la solución
-orientada a objetos usando el principio de herencia para formular y crear un modelo de los animales
-domésticos y salvajes. Por lo tanto, el estudiante realizará los siguientes pasos
+// '''
+// Un animal es un ser vivo que puede desplazarse de un lugar a otro. Este tipo de organismo se
+// caracteriza además por diversas características que son compartidas por la mayoría de los animales.
+// Los animales ingieren alimentos, desarrollan una reproducción de tipo sexual (mayoría de los casos)
+// y absorben oxígeno a través de la respiración. Sin embargo, los animales también tienen
+// características que los hace diferentes entre sí.
+// Existe una variedad de grupos y clasificación de los animales. En este caso, para nuestro ejercicio
+// académico, nos centraremos en la clasificación de animales domésticos y salvajes. Los animales
+// domésticos son aquellos que los humanos hemos habituado a vivir con nosotros. Quizás tu tengas
+// uno de estos en casa, normalmente hay un perro o un gato en nuestras casas bogotanas, pero
+// también los cerdos, toros, patos y entre otros son considerados animales domésticos. Por otra
+// parte, los animales salvajes no son domesticables ya que nos consideran una especie peligrosa o
+// una presa. Estos animales, en su ambiente natural consiguen su propia alimentación y buscan su
+// propio hogar. Algunos ejemplos de estos animales son la Jirafa, el hipopótamo, el cocodrilo, etc.
+// Tomando como referencia la introducción anterior, esta actividad consistirá en crear la solución
+// orientada a objetos usando el principio de herencia para formular y crear un modelo de los animales
+// domésticos y salvajes. Por lo tanto, el estudiante realizará los siguientes pasos
 
-1. TODO Listar un conjunto de características y comportamientos que tengan en común todos los
-animales.
-- nutrirse  
-- crecer
-- moverse
-- responder a estimulos externos
-- subir o bajar peso
-- respirar (branquias pulmones, etc)
+// 1. TODO Listar un conjunto de características y comportamientos que tengan en común todos los
+// animales.
+// - nutrirse  
+// - crecer
+// - moverse
+// - responder a estimulos externos
+// - subir o bajar peso
+// - respirar (branquias pulmones, etc)
 
-2. Crear la clase Superclase de dicho objeto del mundo real con sus propiedades y métodos.
+// 2. Crear la clase Superclase de dicho objeto del mundo real con sus propiedades y métodos.
 
-3. Listar un conjunto de características y comportamientos que tengan en común los animales
-domésticos y los animales salvajes.
-- dormir
-- reproduccion
-- regular temperatura
-- sociales
+// 3. Listar un conjunto de características y comportamientos que tengan en común los animales
+// domésticos y los animales salvajes.
+// - dormir
+// - reproduccion
+// - regular temperatura
+// - sociales
 
-4. Crear las clases Subclase de dichos objetos del mundo real con sus propiedades y métodos.
-5. Crear 3 Subclases de cada una de las clases de animal doméstico y salvaje con sus
-propiedades y métodos.
-6. Añadir uno de los tipos de polimorfismo en un método de la Superclase Animal y sus
-Subclases (a elección del estudiante).
-7. Crear el diagrama de clases de dicha estructura jerárquica.
-8. Plantear una solución que incluya el concepto de interfaz (ya que la herencia de Java no
-permite que sea múltiple) e implementar en código dicha solución.
+// 4. Crear las clases Subclase de dichos objetos del mundo real con sus propiedades y métodos.
+// 5. Crear 3 Subclases de cada una de las clases de animal doméstico y salvaje con sus
+// propiedades y métodos.
+// 6. Añadir uno de los tipos de polimorfismo en un método de la Superclase Animal y sus
+// Subclases (a elección del estudiante).
+// 7. Crear el diagrama de clases de dicha estructura jerárquica.
+// 8. Plantear una solución que incluya el concepto de interfaz (ya que la herencia de Java no
+// permite que sea múltiple) e implementar en código dicha solución.
 
-'''
+// '''
 
 public class Animal {
 
@@ -123,11 +123,11 @@ public class Animal {
 
     public void moverse()
     {
-        System.out.println('Movimiento generico de animal');
+        System.out.println("Movimiento generico de animal");
     }
 
     public void comer()
     {
-        System.out.println('Alimentacion generica de animal');
+        System.out.println("Alimentacion generica de animal");
     }
 }

@@ -11,7 +11,7 @@ public class Perro extends Animal {
     }
     public void incremetarPeso(int p)
     {
-        super.incremetarPeso(p + 1)
-        super.mostrarPeso()
+        super.incremetarPeso(p + 1);
+        super.mostrarPeso();
     }
 }
