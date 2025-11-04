@@ -1,0 +1,1 @@
+I will see a city full of lights; it will have large billboards, giant buildings full of lights, and the streets will always be crowded with people. In the distance, I will see a snow-covered mountain, and I will see people constantly snowboarding. I will be seeing a city full of life and activity both day and night.
