@@ -1,0 +1,23 @@
+{
+  "name": "wn-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontend para WN Casino P2P - Juegos de apuestas entre personas con Bitcoin y máxima seguridad.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "author": "Equipo WN",
+  "license": "MIT",
+  "dependencies": {
+    "@mui/material": "^5.15.8",
+    "@mui/icons-material": "^5.15.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "socket.io-client": "^4.7.5"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "wn-backend",
+  "version": "1.0.0",
+  "description": "Backend para WN Casino P2P - Juegos de apuestas entre personas con Bitcoin y máxima seguridad.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "author": "Equipo WN",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-validator": "^7.3.1",
+    "jsonwebtoken": "^9.0.2",
+    "poker-evaluator": "2.1.1",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "nodemon": "^3.0.3",
+    "supertest": "^6.3.3"
+  }
+}
